@@ -1,0 +1,24 @@
+[
+  {
+    "id": "07a220b1-3b3a-40e0-82e8-8311db91faa2",
+    "agentId": "0fe64298-87b8-4791-9def-f2b72983945d",
+    "schedule": "* * * * *",
+    "message": "saat budur",
+    "name": "ad",
+    "status": "paused",
+    "lastRun": "2026-09-07T12:17:00.004Z",
+    "nextRun": null,
+    "createdAt": "2026-09-01T14:50:13.864Z"
+  },
+  {
+    "id": "aed506a3-b627-463d-be13-acc741aa06f9",
+    "agentId": "gta",
+    "schedule": "* * * * *",
+    "message": "Bu bir test mesajıdır.",
+    "name": "Rastgele Görev",
+    "status": "idle",
+    "lastRun": null,
+    "nextRun": null,
+    "createdAt": "2026-09-06T15:40:34.216Z"
+  }
+]
