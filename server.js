@@ -5,7 +5,7 @@ const cors = require('cors');
 const path = require('path');
 const fs = require('fs');
 const multer = require('multer');
-const { getConfigManager } = require('./src/config/config1');
+const { getConfigManager } = require('./src/config/config');
 const { getLang } = require('./src/config/lang');
 const packageJson = require('./package.json');
 
