@@ -20,12 +20,12 @@ const savedLanguage = configManager.get('language') || 'tr';
 lang.setLanguage(savedLanguage);
 
 // System modules
-const AgentManager = require('./src/agents/AgentManage1r');
+const AgentManager = require('./src/agents/AgentManager');
 const CronManager = require('./src/cron/CronManager');
-const BackupManager = require('./src/sistem/BackupManage1r');
-const ModelManager = require('./src/models/ModelManager1');
-const UpdateManager = require('./src/sistem/UpdateManager1');
-const TunnelManager = require('./src/sistem/TunnelManager1');
+const BackupManager = require('./src/sistem/BackupManager');
+const ModelManager = require('./src/models/ModelManager');
+const UpdateManager = require('./src/sistem/UpdateManager');
+const TunnelManager = require('./src/sistem/TunnelManager');
 
 const app = express();
 const server = http.createServer(app);
